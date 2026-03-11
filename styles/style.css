@@ -1,13 +1,14 @@
 body {
     height: 200vh;
     margin: 0;
+    background-color:#bc7272 ;
 }
 
 header {  
     position: sticky;
     top: 0;
-    background-color: #333;
-    color: rgb(123, 61, 61);
+    background-color: #9a5757;
+    color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
 }
@@ -34,9 +35,11 @@ header {
 }
 
 .tombol-sticky img {
-    width: 40px;
+    width: 80px;
 }
 
 .data-diri {
     text-align: center;
+    font-size: 35px;
+    font-weight: bold;
 }
