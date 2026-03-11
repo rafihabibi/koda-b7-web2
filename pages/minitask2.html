@@ -14,33 +14,31 @@
     .header-kalender {
         display: flex;
         justify-content: space-between;
-        width: 700px;
+        width: 650px;
         margin: 20px auto 10px auto;
         font-size: 20px;
         font-weight: bold;
     }
     .calender-maret {
         margin:  auto;
-        display: flex;
-        flex-wrap: wrap;
         width: 700px;
     }
     
     .hari {
       font-weight: bold;
-      text-transform: uppercase;
     }
 
     .hari, .tanggal {
         text-align: center;
         box-sizing: border-box;
-        width: 14.28%;
+        display: inline-block;
+        width: 13%;
         border: 1px solid #bfbfbfee;
-        padding: 20px 5px;
+        padding: 20px;
+        margin: 0;
         height: auto;
         font-size: 15px;
         font-weight: bold;
-        text-transform: uppercase;
         
     }
     .libur {
@@ -77,13 +75,13 @@
     
     <div class="calender-maret">
 
-        <div class="hari libur">Sunday</div>
-        <div class="hari">Monday</div>
-        <div class="hari">Tuesday</div>
-        <div class="hari">Wednesday</div>
-        <div class="hari">Thursday</div>
-        <div class="hari">Friday</div>
-        <div class="hari sabtu">Saturday</div>
+        <div class="hari libur">Sun</div>
+        <div class="hari">Mon</div>
+        <div class="hari">Tue</div>
+        <div class="hari">Wed</div>
+        <div class="hari">Thu</div>
+        <div class="hari">Fri</div>
+        <div class="hari sabtu">Sat</div>
         <div class="tanggal libur">1</div>
         <div class="tanggal">2</div>
         <div class="tanggal">3</div>
