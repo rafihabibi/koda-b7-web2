@@ -1,0 +1,46 @@
+:root {
+    --primary-color: rgb(84, 234, 61);
+    --secondary-color: red;
+    --primary-border: 2px solid black;
+    --error-color: red;
+}
+
+.btn[data-role="primary"] {
+    background-color: var(--primary-color);
+    border: var(--primary-border);
+}
+.btn[data-role="secondary"] {
+    background-color: var(--secondary-color);
+}
+
+input[type="email"] {
+    border: 2px solid red;
+}
+
+[data-status="error"]{
+    color: var(--error-color);
+}
+
+tbody tr:nth-child(even){
+    background-color: var(--primary-color);
+}
+
+tbody tr:nth-child(odd){
+    background-color: var(--secondary-color);
+}
+
+li:nth-child(even) {
+    background-color: aquamarine;
+    width: 150px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(215, 244, 1);
+}
+
+article h2 ~ p::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+}
+
